@@ -35,16 +35,16 @@ setup(
     ],
     extras_require={
         "develop": [
-            "ruff<0.13; python_version >= '3.7'",
+            "ruff<0.16; python_version >= '3.7'",
             "twine<7",
             "wheel<1",
         ],
         "test": [
-            "pytest<9",
+            "pytest<10",
             "pytest-cache<2",
-            "pytest-cov<6.3",
-            "python-dotenv<1.2",
-            "responses<0.26",
+            "pytest-cov<7.1",
+            "python-dotenv<1.3",
+            "responses<0.27",
         ],
     },
     zip_safe=False,
